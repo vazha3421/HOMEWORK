@@ -4,60 +4,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+main{display: flex; justify-content:center;background-color:  rgb(47, 47, 59); gap: 20px; padding: 20px;}
+.left.right{ width:200px; background-color: rgb(47, 47, 59);:1px solid rgb(77, 68, 68)}
+.h1{color:aliceblue; }
+.p1{color: aliceblue;}
+
+.p2{color: rgb(0, 0, 0); }
+.right{ display: flex; justify-self: start;   background-color: aliceblue; float:right; font-size:large;}
+.input{width:45%}
+.textarea .s1{width:95% ; }
+.s1{background-color: rgb(184, 73, 0); color: aliceblue;border: rgb(192, 109, 0); width: 9cm; height: 1cm;}
+    </style>
 </head>
 <body>
-</head>
-<p><b>Get your free account now.</b></p>
-<body>
-    <form action="8">
-       Company name*
-       <div></div>
-        <label >
-            <input type="text">
-        </label>
-        <div></div>
-        Email*
-        <div></div>
+    <main>
+        <form>
+<div class=" left">
+   <p class="p1" >We would love to hear from you!</p>
+    <h1 class="h1"><b>Contact Us</b></h1>
+<br>
 <label>
-    <input type="text">
+    <input type="email" name= "email" placeholder="enter a valid email address">
+    <input type="name" name="name" placeholder="Enter your name">
+    <br><br>
 </label>
-<div></div>
-Password*
-<div></div>
-<label >
-    <input type="text">
-    
+ <label>
+    <input type="address" name="address" placeholder="Enter your address">
+    <input type="tel" name="phone" placeholder="enter your phone(e.g. = 141)">
+    <br><br>
+<label>
+    <textarea name="Enter your message" id="" cols="30" rows="10" placeholder="Enter your message"></textarea>
+    <br><br>
 </label>
-
-<div></div>
-Phone number*(optional)
-<div></div>
-<label >
-    <input type="text">
-    <div></div>
+<label>
+    <button class="s1" type="SUBMIT"> SUBMIT</button>
 </label>
-<label >
+</form>
+<div class="icons">
+    <a href="">
+        <img src="" alt="">
+    </a>
+    <a href="">
+        <img src="" alt="">
+    </a>
+    <a href="">
+        <img src="" alt="">
+    </a>
 
-<input type="checkbox"><B>იაპონური ანიმე დასავლეთში სულ უფრო პოპულარული ხდება.</B>
+</div>
+</div>
+<div class=" right">
+    <p class="p2"><br><br> &nbsp;<b>CALL US</b><br><br>
+        234 567-891, 1(234) 987-654<br><br>
+    <b>LOCATION</b><br><br>
+    121 rock sreet, 21Avenue, New  York, NY, 92103-9000 <br><br>
+    <b>BUISNESS HOURS,</b><br><br>
+    Mon-fri...... 10am - 8 pm, Sat, Sun......... Closed</p> 
+</div>
 
-
-</label>
-<div></div>
-<input type="checkbox"><b> თუ ერთხელ უკვე სცადე ცნობილი ანიმეს ერთი კადრით გამოცნობა</b>
-
-<div></div>
-<label >
- 
-<input  button style="background-color:red;" type="button"sighn up for free value="SIGHN UP FOR FREE">
-
-</label>   
-<div></div>
-<div>
-<a href="https://on.ge/">if you want to see the news visit this</a></div>
-
-
-
-    </form>
-
+</main>
 </body>
 </html>
